@@ -1,0 +1,6 @@
+[submodule "weatherOAuth-frontend"]
+	path = weatherOAuth-frontend
+	url = https://github.com/Maia-Sason/weatherOAuth-frontend
+[submodule "weatherOAuth-backend"]
+	path = weatherOAuth-backend
+	url = https://github.com/Maia-Sason/weatherOAuth-backend
