@@ -2,6 +2,9 @@
 
 Purpose of this web application is to display weather information in a sleek way based on where you are in the world and store your location for next time so that the next time you check Weather Location, your previous locations' current weather will show up as well.
 
+### Live Demo:
+https://weatherlocation.herokuapp.com/login
+
 ## How it works
 
 User authenticates with Facebook on client side -> client side talks to server which talks to Facebook through Passport's API -> Facebook sends callback to `/return` -> (If user is new user, they are saved to database and they get their own table for locations) -> which sends a response of the homepage after deserializing the user -> client side recieves information that user is indeed authenticated. It goes ahead and fetches user's information, then user's Geolocation using Geolocation api ->
